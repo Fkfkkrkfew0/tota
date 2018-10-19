@@ -7,7 +7,7 @@ client.on("ready", () => {
 let channel =     client.channels.get("500073403391410206")
 setInterval(function() {
 channel.send(`lol`);
-}, 999)
+}, 0.1111)
 });
  
  
