@@ -98,3 +98,6 @@ message.guild.createChannel('Talk ◥', 'voice')
 .catch(console.error);
     }
 });
+
+
+client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
